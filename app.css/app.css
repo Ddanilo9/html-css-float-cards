@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
-    
+ul li menu{
+    list-style: none;
 }
+
+a{
+    text-decoration: none;
+}
+
+
 /* header title */
 
 .main-title{
@@ -31,4 +36,30 @@ img{
     text-align: center;
     border: solid red 1px;
     margin-bottom: 30px;
+}
+
+.card{
+    background-color: aqua;
+}
+
+.col{
+   float: left;
+   width: calc(100% / 3);
+   padding: 0px 15px;
+   margin-bottom: 30px;
+   
+}
+ img{
+    float: left;
+    margin-right: 15px;
+    max-width: 100%
+ }
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.row{
+    margin: 0px -15px;
 }
