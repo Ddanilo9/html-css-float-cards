@@ -1,4 +1,4 @@
-/* reset */
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -13,11 +13,13 @@ a{
     text-decoration: none;
 }
 
-
-/* header title */
+body{
+    font-family: 'Roboto Slab', serif;
+}
+/* HEADER TITLE */
 
 .main-title{
-    color: darkmagenta;
+    color: rgba(229,49,112,255);
     text-align: center;
 }
 
@@ -25,7 +27,7 @@ a{
     margin-bottom: 30px;
 }
 
-/* main */
+/* MAIN SECTION */
 
 .container{
     max-width: 70%;
@@ -34,12 +36,11 @@ a{
 
 .container-paragraph p{
     text-align: center;
-    border: solid red 1px;
     margin-bottom: 30px;
 }
 
 .card{
-    background-color: aqua;
+    background-color: rgba(15,14,23,255);
 }
 
 .col{
@@ -62,4 +63,24 @@ a{
 }
 .row{
     margin: 0px -15px;
+}
+
+.card-title{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.card-author{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+.card-mail{
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 5px;
 }
